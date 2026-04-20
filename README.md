@@ -153,7 +153,3 @@ izabellaestilo_project/
 *   As rotas que exigem autenticação (`/produtos/`, `/categorias/`, `/pedidos/`) são protegidas pelo decorador `@login_required`.
 *   A API RESTful utiliza `permissions.IsAuthenticatedOrReadOnly` para categorias e produtos, e `permissions.IsAuthenticated` para pedidos, garantindo que apenas usuários autenticados possam criar/modificar pedidos.
 *   Validação de formulários é tratada pelo Django e Django REST Framework.
-
-## Autor
-
-Manus AI
